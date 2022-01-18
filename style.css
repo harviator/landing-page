@@ -1,5 +1,69 @@
-html, body {
+:root {
+    --text: #111235;
+    --anchr-bckgrnd: #4B5092;
+    --anchr-txt: #ffffff;
+}
+
+* {
     margin: 0;
-    padding: 0;
+}
+
+/* Element Selectors */
+
+html, body {
+    height: 100%;
     font-family: 'Hellix', sans-serif;
+    color: var(--text);
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    margin: 0;
+    padding: 16px;
+}
+
+span {
+    font-weight: 700;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    margin: 0;
+}
+
+a {
+    display: inline-block;
+    width: 60%;
+    color: var(--anchr-txt);
+    background-color: var(--anchr-bckgrnd);
+    border: none;
+    border-radius: 35px;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 18px 0;
+    text-decoration: none;
+}
+
+/* Class Selectors */
+.container {
+    text-align: center;
+}
+
+.container img {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.text {
+    margin: 20px 15px 30px 15px;
 }
