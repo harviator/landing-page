@@ -2,6 +2,7 @@
     --text: #111235;
     --anchr-bckgrnd: #4B5092;
     --anchr-txt: #ffffff;
+    --bluebg: #F2F8FF;
 }
 
 * {
@@ -22,8 +23,11 @@ header {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
 }
 
-h2 {
+h1, h2 {
     font-weight: 500;
+}
+
+header > h2 {
     font-size: 36px;
     line-height: 43px;
     margin: 0;
@@ -35,7 +39,6 @@ span {
 }
 
 h1 {
-    font-weight: 500;
     font-size: 64px;
     line-height: 75px;
     margin: 0;
@@ -56,14 +59,75 @@ a {
 
 /* Class Selectors */
 .container {
+    margin-bottom: 120px;
+}
+
+.text-center {
     text-align: center;
 }
 
 .container img {
     width: 100%;
-    margin: 40px 0;
+}
+
+.container h2 {
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 20px;
 }
 
 .text {
     margin: 20px 15px 30px 15px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.choose-text {
+    background-color: var(--bluebg);
+    margin-bottom: 120px;
+    padding: 50px 16px;
+}
+
+.choose-text > .text {
+    margin: 0;
+}
+
+.alex {
+    background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
+    padding-top: 80px;
+}
+
+.alex > h2 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.alex > .text {
+    margin-top: 0;
+}
+
+.alex > .text > p:first-of-type {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.btn-secondary {
+    color: #436BAA;
+    background-color: var(--anchr-txt);
+    margin-bottom: 52px;
+}
+
+/* ID Selectors */
+
+#situp {
+    margin: 40px 0;
+}
+
+#lunge {
+    margin-bottom: 30px;
+}
+
+#alex {
+    margin-bottom: -5px;
 }
