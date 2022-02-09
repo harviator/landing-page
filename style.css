@@ -62,6 +62,10 @@ a {
     text-align: center;
 }
 
+a:hover {
+    opacity: 0.7;
+}
+
 h3 {
     font-weight: bold;
     font-size: 24px;
@@ -109,7 +113,7 @@ footer > ul > li > a:hover {
 
 footer > p:first-of-type {
     align-self: flex-start;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
     line-height: 28px;
     margin-bottom: 16px;
@@ -249,10 +253,6 @@ input[type="submit"]:hover {
     display: inline;
     width: auto;
     border-radius: 50%;
-}
-
-.social-links > a:hover {
-    opacity: 0.7;
 }
 
 .social-links > a > img {
