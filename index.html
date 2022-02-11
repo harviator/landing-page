@@ -12,15 +12,25 @@
 <body>
     <header>
         <h2>Max<span>Strong</span></h2>
+        <nav>
+            <a hef="#">Home</a>
+            <a hef="#">About Us</a>
+            <a hef="#">Contact</a>
+            <a hef="#">
+                <img src="https://assets.codepen.io/6060109/icon-search.png" alt="Search icon">
+            </a>
+        </nav>
     </header>
     <div class="container text-center">
         <img id="situp" src="https://assets.codepen.io/6060109/workout-vector-1.png" alt="Situp vector">
-        <h1>The time to get <span>strong</span> has come</h1>
-        <div class="text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum
-                dignissim.</p>
+        <div class="intro-text">
+            <h1>The time to get <span>strong</span> has come</h1>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum
+                    dignissim.</p>
+            </div>
+            <a class="btn-primary" href="#">Contact Us</a>
         </div>
-        <a href="#">Contact Us</a>
     </div>
     <div class="container">
         <img id="lunge" src="https://assets.codepen.io/6060109/workout-vector-2.png" alt="Lunge vector" />
@@ -34,8 +44,8 @@
             </div>
         </div>
     </div>
-    <div class="container text-center">
-        <div class="alex">
+    <div class="container text-center alex-container">
+        <div class="alex-text">
             <h2>Alexander Arnold</h2>
             <div class="text">
                 <p>35 y.o. // 10 years of experience</p>
@@ -44,12 +54,11 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum
                     dignissim.</p>
             </div>
-            <a class="btn-secondary" href="#">Sign up for training</a>
-            <img id="alex" src="https://assets.codepen.io/6060109/trainer.png"
-                alt="Alex standing with hands on his hips" />
+            <a class="btn-primary btn-secondary" href="#">Sign up for training</a>
         </div>
+        <img id="alex" src="https://assets.codepen.io/6060109/trainer.png" alt="Alex standing with hands on his hips" />
     </div>
-    <div class="container mb-86">
+    <div class="container mb-86 walk-mobile">
         <img id="walk" src="https://assets.codepen.io/6060109/workout-vector-3.png" alt="Walking vector" />
         <div class="text">
             <h2><span>The benefits</span> of exercise</h2>
@@ -75,7 +84,38 @@
             </div>
         </div>
         <div class="benefits-btn text-center">
-            <a href="#">Get now</a>
+            <a class="btn-primary" href="#">Get now</a>
+        </div>
+    </div>
+    <div class="container mb-86 walk-desktop">
+        <div class="walk-top">
+            <h2><span>The benefits</span> of exercise</h2>
+            <a class="btn-primary" href="#">Get now</a>
+        </div>
+        <div class="walk-bottom">
+            <img id="walk" src="https://assets.codepen.io/6060109/workout-vector-3.png" alt="Walking vector" />
+            <div class="text">
+                <div class="panel bg-blue">
+                    <h3>Increases business<br /> flexibility</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum
+                        dignissim.</p>
+                </div>
+                <div class="panel bg-purple">
+                    <h3>Improves mental<br />health</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum
+                        dignissim.</p>
+                </div>
+                <div class="panel bg-purple">
+                    <h3>Provides more energy throughout the day</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum
+                        dignissim.</p>
+                </div>
+                <div class="panel bg-blue">
+                    <h3>Helps to find<br />new friends</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum
+                        dignissim.</p>
+                </div>
+            </div>
         </div>
     </div>
     <footer class="text-center">
@@ -114,7 +154,6 @@
         <p>© Copyright ©
             <script>document.write(new Date().getFullYear())</script> MaxStrong.
         </p>
-
     </footer>
 </body>
 
