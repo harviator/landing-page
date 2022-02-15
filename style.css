@@ -493,6 +493,10 @@ footer > p:last-of-type {
         box-shadow: none;
     }
 
+    header > h2 {
+        padding-left: 0;
+    }
+
     nav {
         width: 35%;
     }
