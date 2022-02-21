@@ -435,10 +435,6 @@ footer > p:last-of-type {
 @media only screen and (min-width: 600px) {
     
     /* Element Selectors */
-    header {
-        width: 100%;
-    }
-
     footer {
         margin: 0 5vw 0 5vw;
     }
@@ -463,8 +459,6 @@ footer > p:last-of-type {
     }
 
     header {
-        width: 100%;
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -500,7 +494,6 @@ footer > p:last-of-type {
     /* Class Selectors */
     .container {
         display: flex;
-        margin-bottom: 120px;
     }
 
     .intro-text {
